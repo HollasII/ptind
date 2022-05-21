@@ -1,0 +1,134 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'AvertaStd-Bold';
+}
+header{
+    background-image: url(unsplash_FCHlYvR5gJI.png);
+    background-size: cover;
+    height: 735px;
+    width: 100%;
+}
+.overlay
+{
+    width: 100%;
+    height: 100%;
+}
+.center{
+    width: 85%;
+    margin: 0 auto;
+}
+/*navbar of header*/
+.navbar
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+.navbar ul li
+{
+    display: inline;
+}
+.navbar ul li a
+{
+    text-decoration: none;
+    color: #fff;
+    line-height: 1.6em;
+    font-weight: 300;
+}
+.navbar .left
+{
+    justify-content: left;
+    padding: 10px;
+}
+.navbar .left a
+{
+    font-size: 20px;
+    padding-right: 20px;
+}
+.middle
+{
+    /* align-content: center;
+    border: 2px solid red;
+    padding: 30px;
+    box-sizing: border-box; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.middle ul li
+{
+    /* display: inline-block; */
+    /* border: 2px solid red; */
+    /* padding: 15px; */
+    margin: 50px;
+    font-family: 'AvertaStd-Semibold';
+}
+.navbar .right
+{
+    justify-content: right;
+    padding-top: 30px;
+    padding-right: 15px;
+}
+/*.navbar .right a
+{
+    font-size: 20px;
+    padding: 20px;
+} */
+.contain
+{
+    /* top: 50%;
+    left: 50%; */
+    /* transform: translate(-50%,-50%); */
+    padding: 150px;
+    /* position: absolute; */
+    /* display: flex;
+    flex-direction: column;
+    height: 55%
+    width: ; */
+}
+.contain-title
+{
+    padding: 15px;
+    color: #fff;
+    text-align: center; 
+    font-size: 42px;
+}
+.contain-paragragh
+{
+    font-family: 'AvertaStd-Semibold';
+    color: #fff;
+    text-align: center;
+}
+.main-contain-link li a
+{
+    text-decoration: none;
+    color: #fff;
+    background-color: #00D899;
+    /* display: flexbox; */
+    width: 125px;
+    height: 25px;
+    border-radius: 15px;
+    padding: 8px 50px; */
+    /* position: absolute;
+    color: #fff;
+    padding: 20px 410px;
+    width: 125px;
+    height: 25px;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    background-color: #00D899;
+    border-radius: 15px;
+    left: calc(50% - 125px/2 + 0.24px);
+    top: calc(50% - 22px/2 - 907.5px); */
+}
+.contain-link
+{
+    background-color: ;
+}
