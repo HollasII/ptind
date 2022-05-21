@@ -141,25 +141,13 @@ header{
     text-decoration: none;
     color: #fff;
     background-color: #00D899;
-    /* display: flexbox; */
-    /* width: 125px;
-    height: 25px; */
     border-radius: 15px;
     padding: 8px 50px;
-    /* position: absolute;
-    color: #fff;
-    padding: 20px 410px;
-    width: 125px;
-    height: 25px;
-    text-decoration: none;
-    text-align: center;
-    justify-content: center;
+}
+.contact-link-list
+{
     background-color: #00D899;
     border-radius: 15px;
-    left: calc(50% - 125px/2 + 0.24px);
-    top: calc(50% - 22px/2 - 907.5px); */
-}
-.contain-link
-{
-    /* background-color: ; */
+    text-align: end;
+    margin: 150px 12px;
 }
