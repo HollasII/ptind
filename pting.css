@@ -21,6 +21,7 @@ header{
 .center{
     width: 85%;
     margin: 0 auto;
+    position: relative;
 }
 /*navbar of header*/
 .navbar
@@ -128,6 +129,12 @@ header{
     letter-spacing: 0.01em;
     
     
+}
+.contact-link
+{
+    position: absolute;
+    border: 50%;
+    background: #00D899;
 }
 .main-contain-link
 {
